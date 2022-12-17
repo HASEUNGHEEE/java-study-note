@@ -1,4 +1,4 @@
-package lecture.udemy.itgo;
+package lecture.udemy.itgo.variable;
 
 import java.util.Scanner;
 
