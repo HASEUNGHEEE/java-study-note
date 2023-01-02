@@ -1,4 +1,4 @@
-package lecture.udemy.itgo.유용한클래스.hash;
+package lecture.udemy.itgo.유용한클래스.Objects클래스.hash;
 
 public class HashEx {
     public static void main(String[] args) {

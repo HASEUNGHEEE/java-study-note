@@ -1,4 +1,4 @@
-package lecture.udemy.itgo.유용한클래스;
+package lecture.udemy.itgo.유용한클래스.Objects클래스;
 
 import java.util.Objects;
 
