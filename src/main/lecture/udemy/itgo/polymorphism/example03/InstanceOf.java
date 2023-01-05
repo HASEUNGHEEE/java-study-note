@@ -1,0 +1,22 @@
+package lecture.udemy.itgo.polymorphism.example03;
+
+public class InstanceOf {
+    public static void main(String[] args) {
+        SportCar sportCar = new SportCar();
+        if (sportCar instanceof SportCar) {
+            System.out.println("SportCar 로 타입변환이 가능합니다.");
+        }
+
+        if (sportCar instanceof Car) {
+            System.out.println("Car 로 타입변환이 가능합니다.");
+        }
+
+        if (sportCar instanceof Object) {
+            System.out.println("Object 로 타입변환이 가능합니다.");
+        }
+        /*
+        instanceof 연산자의 결과가 true 라는 것은 실제 형변환이 가능하다는 것을 의미하며,
+        아울러 상속관계에 있는 것이다.
+         */
+    }
+}
