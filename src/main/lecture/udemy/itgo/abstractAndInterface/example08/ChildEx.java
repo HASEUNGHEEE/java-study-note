@@ -1,0 +1,23 @@
+package lecture.udemy.itgo.abstractAndInterface.example08;
+
+public class ChildEx {
+    public static void main(String[] args) {
+        // 익명 자손 객체 (이름 없음)
+        Parent parent = new Parent() { // 타입(근본)이 클래스 -> 익명 자손 객체
+            int b = 10;
+            public void method1() {
+                System.out.println("익명 자손 객체 메서드");
+            }
+
+            @Override
+            public void method() {
+                int a = 10;
+                System.out.println("a : " + a);
+                System.out.println(this.b);
+                this.method1();
+            }
+        };
+        parent.method();
+
+    }
+}
